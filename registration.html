@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+   
+</head>
+<body>
+    
+  <form action="./done.php" method="post">
+    <div  class="form">
+        
+    <h1>Registration Form</h1>
+          
+        
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname"><br> <br>
+
+            <label for="lname">Last name</label>
+          <input type="text" id="lname" name="lname"><br> <br>
+
+
+
+          <label for="Address"> Address</label> <br>
+          <textarea  class="ad" name="Address" rows="10" cols="30"></textarea> <br> <br>
+
+
+          <label for="cou">Country</label>
+            
+                <select id="cou" name="cou">
+                  <option value="">Select Country:</option>
+                  <option value="Egypt">Egypt</option>
+                  <option value="USA">USA</option>
+                  <option value="France">France</option>
+                  </select><br> <br>
+
+                  <label for="gender">Gender</label>
+
+                
+                <input class="rad" type="radio" name="gender" value="male"> Male 
+                <input  class="rad" type="radio" name="gender" value="Female"> Female <br> <br>
+
+
+
+                <label for="skill">Skills</label>
+           
+                <input class="ch" name="skill"type="checkbox"value="php">
+                <label id="l1"for="php"> Php</label>
+                <input class="ch" name="skill"type="checkbox"value="J2SE">
+                <label id="l1"for="J2SE"> J2SE</label><br>
+
+
+                <input class="ch1" name="skill"type="checkbox"value="MySql">
+                <label  id="l1"for="MySql"> MySql</label>
+                <input class="ch2"  name="skill"type="checkbox" value="postgreeSql">
+                <label  id="l1"for="postgreeSql"> postgreeSql</label>  <br> <br>
+
+                <label for="Uname">User name</label>
+            <input type="email" id="Uname" name="Uname"> <br> <br>
+        
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass"> <br> <br>
+    
+
+
+                <label for="track">Department</label>
+                <input type="text" id="pass" name="dep" value="Open Source">
+
+
+                <br>
+                <br>
+                <div class ="btn">
+                    <input  type="submit"  name="submit"value="Submit">
+                <input type="reset">
+                </div>
+
+
+                
+
+            
+
+
+            
+            
+            
+              
+
+    </form>
+
+</div>
+
+
+
+</body>
+</html>

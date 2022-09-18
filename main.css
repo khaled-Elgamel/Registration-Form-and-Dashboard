@@ -1,0 +1,62 @@
+
+.form{
+
+
+    width: 35%;
+    border: 1px solid black;
+    margin-left: 500px;
+    background-color: rgb(169, 167, 172);
+    
+    padding-bottom: 60px;
+}
+
+h1{
+    text-align: center;
+}
+ label{
+    margin-left: 30px;
+ }
+
+ .ad{
+    margin-left: 100px;
+
+ }
+
+ select{
+
+    margin-left: 10px;
+ }
+
+ .rad{
+
+    margin-left: 12px;
+ }
+
+ .ch{
+    margin-left: 20px;;
+
+ }
+
+ .p2{
+    margin-left: 100px;
+    display:inline-block;
+ }
+ .p1{
+    margin-left: 160px;
+ }
+
+ .btn{
+
+    margin-left: 150px;;
+ }
+
+ #l1{
+
+    
+    margin-left: 10px;;
+ }
+
+ .ch1{
+    margin-left: 90px;;
+
+ }
